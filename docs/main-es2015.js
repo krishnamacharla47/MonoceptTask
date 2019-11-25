@@ -266,11 +266,11 @@ let AppComponent = class AppComponent {
     reset() {
         this.isresult = false;
         this.isFormValid = false;
-        this.planetList = [];
-        this.planetList = [];
-        this.planetList2 = [];
-        this.planetList3 = [];
-        this.planetList4 = [];
+        // this.planetList=[];
+        // this.planetList=[];
+        // this.planetList2=[];
+        // this.planetList3=[];
+        // this.planetList4=[];
         this.vehicleList = [];
         this.vehicleList2 = [];
         this.vehicleList3 = [];
