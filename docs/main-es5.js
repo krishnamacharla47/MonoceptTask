@@ -280,36 +280,7 @@ var AppComponent = /** @class */ (function () {
         }
     };
     AppComponent.prototype.reset = function () {
-        this.isresult = false;
-        this.isFormValid = false;
-        // this.planetList=[];
-        // this.planetList=[];
-        // this.planetList2=[];
-        // this.planetList3=[];
-        // this.planetList4=[];
-        // this.vehicleList=[];
-        // this.vehicleList2=[];
-        // this.vehicleList3=[];
-        // this.vehicleList4=[];
-        this.planet_names = [];
-        this.vehicle_names = [];
-        this.Ismaincontainer = true;
-        this.dest1 = "";
-        this.dest2 = "";
-        this.dest3 = "";
-        this.dest4 = "";
-        this.timeTaken1 = 0;
-        this.timeTaken2 = 0;
-        this.timeTaken3 = 0;
-        this.timeTaken4 = 0;
-        this.Planet1 = "";
-        this.Planet2 = "";
-        this.Planet3 = "";
-        this.Planet4 = "";
-        //     this.falconeServie.getTokenFromAPI().subscribe(x=>{
-        //     console.log(x.token);
-        //     localStorage.setItem('TOKEN',x.token);
-        //  })
+        window.location.reload();
     };
     AppComponent.ctorParameters = function () { return [
         { type: _services_falcone_service__WEBPACK_IMPORTED_MODULE_2__["FalconeService"] },
